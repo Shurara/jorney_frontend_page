@@ -195,7 +195,7 @@ display: flex;
     text-align: center;
 }
 
-.agree{
+.checkbox{
     border-width: 3px;
     border-color:  #3cb878;
     border-style: solid;
