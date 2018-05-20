@@ -22,11 +22,17 @@
                 </div>
             </div>
             <div class="right-col">
-                <ul class="icons-group"></ul>
-                <ul class="login-group"></ul>
+                <ul class="icons-group">
+                   <li class="icons-group-item"><a href="#"><img src="img/ic_caledar.png" alt=""></a></li>
+                   <li class="icons-group-item"><a href="#"><img src="img/ic_forum.png" alt=""></a></li>
+                   <li class="icons-group-item"><a href="#"><img src="img/ic_journey.png" alt=""></a></li>
+                </ul>
+                <p class="login-group">Welcome, <a href="#" class="a-login-green">Log In</a> or <a href="#" class="a-login-green"> Sign Up</a></p>
             </div>
 
         </header>
+
+       <!--  <div class="container"> -->
         
         <div class="wrap-form">
            <div class="form-login-block">
@@ -34,23 +40,30 @@
                 <a href="" class="a-login">Log In</a>
            </div>
            <div class="social-bottons">
+            <!-- <button class="loginBtn loginBtn--facebook">Login with Facebook</button>
+            <button class="loginBtn loginBtn--google">Login with Google</button> -->
               <div class="social-item btn-facebook">Facebook</div>
               <div class="social-item btn-google">Google</div>
            </div>
-
+           <div class="breack-line">
+            <hr class="grey-line">
+            <p class="p-grey">or</p>
+            <hr class="grey-line">
+        </div>
            <form class="form-input-block">
-                <input type="text" class="in-first-name" placeholder="First Name">
-                <input type="text" class="in-last-name" placeholder="Last Name">
-                <input type="email" class="in-email" placeholder="Email">
-                <input type="password" class="in-choose-password" placeholder="Choose Password">
-                <input type="password" class="in-confirm-password" placeholder="Confirm Password">
+                <input type="text" class="input-field in-first-name" placeholder="First Name">
+                <input type="text" class="input-field in-last-name" placeholder="Last Name">
+                <input type="email" class="input-field in-email" placeholder="Email">
+                <input type="password" class="input-field in-choose-password" placeholder="Choose Password">
+                <input type="password" class="input-field in-confirm-password" placeholder="Confirm Password">
                 <div>
-                  <input type="checkbox" id="agree" name="chk-agree" value="agree">
-                  <label for="agree">Agree our Terms & Conditions</label>
+                  <input type="checkbox" class="agree" name="chk-agree" value="agree">
+                  <label for="agree">Agree our <span class="a-login-green">Terms & Conditions</span></label>
                 </div>
-                <button type="submit" class="btn-create-account">Create Acount</button>
+                <input type="submit" class="input-field btn-create-account"value="Create Acount">
             </form>
         </div>
+      <!--   </div> -->
            
       
     </body>
