@@ -28,8 +28,13 @@ ul {
 }
 
  .a-logo{
+    font-weight:bold;
     color: #fff;
     text-decoration: none;
+}
+
+.a-logo:hover{
+    color: #3cb878;
 }
 
 .a-signup{
@@ -151,20 +156,22 @@ display: flex;
 }
 
 .input-field:hover{
-    background-color:  #ffffff;
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.21);
     width: 322px;
     height: 46px;
 }
 
-.create-account {
+.btn-create-account {
     border: 0;
-    font-family: Verdana;
     color:  #ffffff;
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     text-align: left;
+}
+
+.btn-create-account:hover{
+    background-color: #329a65;
 }
 
 .social-bottons{
