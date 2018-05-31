@@ -75,6 +75,32 @@ display: flex;
     margin-right: 28px;
 }
 
+.bg-ic_journey {
+    width: 20px; height: 20px;
+    background: url(../img/css_sprites.png) -50px -50px;
+}
+.bg-ic_journey:hover{
+     width: 20px; height: 20px;
+    background: url(../img/css_sprites.png) -10px -50px;
+}
+.bg-ic_forum{
+    width: 28px; height: 20px;
+    background: url(../img/css_sprites.png) -58px -10px;
+}
+.bg-ic_forum:hover {
+     width: 28px; height: 20px;
+    background: url(../img/css_sprites.png) -10px -10px;
+}
+.bg-ic_caledar {
+    width: 19px; height: 19px;
+    background: url(../img/css_sprites.png) -106px -49px;
+}
+
+.bg-ic_caledar:hover{
+ width: 19px; height: 19px;
+    background: url(../img/css_sprites.png) -106px -10px;
+}
+
 .login-group{
     color:  #ffffff;
     font-size: 14px;
