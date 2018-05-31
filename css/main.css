@@ -31,8 +31,7 @@ ul {
     font-weight:bold;
     color: #fff;
     text-decoration: none;
-    width: 85px;
-    height: 16px;
+    font-size: 16px;
 }
 
 .a-logo:hover{
@@ -74,7 +73,7 @@ display: flex;
 }
 
 .icons-group-item{
-    margin-right: 28px;
+    margin-right: 25px;
 }
 
 .bg-ic_journey {
@@ -338,7 +337,7 @@ display: flex;
     left: 154px;
 }
 
-label{
+.label-checkbox{
     color:  #434343;
     font-size: 14px;
     font-weight: 400;
