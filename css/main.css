@@ -155,7 +155,7 @@ display: flex;
     padding-left: 17px;
 }
 
-.input-field:hover{
+.input-field:active{
     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.21);
     width: 322px;
     height: 46px;
